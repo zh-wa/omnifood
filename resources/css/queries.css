@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1200px){
+    .title-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .page-row {
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    html, body { font-size: 18px; }
+    .page-row {
+        padding: 0 2%;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .feature-description {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box:first-child {
+        text-align: center;
+    }
+    .pricing {
+        font-size: 250%;
+    }
+    .section-cities {
+        font-size:80%;
+    }
+    .section-subscribe .col-4 {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 90%;
+    }
+    .plan-box li {
+        padding: 0 0;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .app-screen {width: 40%;}
+    .step {font-size: 90%;}
+    h2 {font-size: 150%;}
+    .plan-box ul li { padding: 0; }
+}
+
+@media only screen and (max-width: 480px){
+    
+    .contact-form {width: 100%;}
+}
